@@ -1,7 +1,7 @@
 # PlueckerNet: Learn to Register 3D Line Reconstructions
 
 
-This contains the datasets and codes for training the 3D line registration method described in : [PlueckerNet: Learn to Register 3D Line Reconstructions.](https://arxiv.org/pdf/2012.01096.pdf), CVPR2021.
+This contains the datasets and codes for training the 3D line registration method described in : [PlueckerNet: Learn to Register 3D Line Reconstructions](https://arxiv.org/pdf/2012.01096.pdf), CVPR2021.
 
 
 # Datasets
@@ -29,8 +29,8 @@ json
 If you find missing Prerequisites, please Google and install them using conda or pip
 
 ## Overview
-Our model is implemented both in Pytorch. 
-All our models are trained from scratch, so please run the training codes to obtain models.
+Our model is implemented in Pytorch. 
+All our models are trained from scratch, please run the training codes to obtain models.
 
 For pre-trained models, please [download](https://drive.google.com/file/d/1XhjGkwlSK9jV4ZGLd4Ucg327mHpr_0r9/view?usp=sharing). Under the folder of each dataset, there is a folder named preTrained and you can find it there.
 
