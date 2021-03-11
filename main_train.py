@@ -73,7 +73,7 @@ if __name__ == '__main__':
             if k in resume_config:
                 dconfig[k] = resume_config[k]
         # most recent checkpoint
-        dconfig['resume'] = os.path.join(resume_config['out_dir'], resume_config['dataset'], configs.debug_nb) + '/checkpoint.pth'
+        dconfig['resume'] = os.path.join(resume_config['out_dir'], resume_config['dataset'], configs.model_nb) + '/checkpoint.pth'
         # the best checkpoint
         # dconfig['resume'] = os.path.join(resume_config['out_dir'], resume_config['dataset'], configs.model_nb) + '/best_val_checkpoint.pth'
 
