@@ -174,7 +174,7 @@ class PluckerTrainer:
 
 
         # transfer all data to GPU
-        matches, plucker1, plucker2, R_gt, t_gt,  = matches.to(self.device), plucker1.to(self.device), plucker2.to(self.device), R_gt.to(self.device), t_gt.to(self.device)
+        matches, plucker1, plucker2, R_gt, t_gt  = matches.to(self.device), plucker1.to(self.device), plucker2.to(self.device), R_gt.to(self.device), t_gt.to(self.device)
 
 
         # Compute output
