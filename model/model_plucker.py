@@ -269,7 +269,7 @@ class PluckerNetKnn(nn.Module):
         self.in_channel = 6  # the number of dimensions for plucker line
         # feature extractor
         self.FeatureExtractor = FeatureExtractorGraph(self.config, self.in_channel)
-        # calculate the pairwise distance for 3D and 2D features
+        # calculate the pairwise distance for plucker features
         self.pairwiseL2Dist = pairwiseL2Dist
         # configurations for the estimation of joint probability matrix
         self.sinkhorn_mu = config.net_lambda
