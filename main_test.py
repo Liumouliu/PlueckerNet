@@ -149,7 +149,7 @@ def main(config):
                 plucker1_topK = plucker1[0, plucker1_indices[0, :k], :].cpu().numpy()
                 plucker2_topK = plucker2[0, plucker2_indices[0, :k], :].cpu().numpy()
 
-                if config.dataset == "scenecity3D" or config.dataset == "structured3D" or config.dataset == "semantic3D":
+                if config.dataset == "structured3D" or config.dataset == "semantic3D":
                     dis_threshold = 0.5
                 else:
                     dis_threshold = 1e-1
