@@ -119,7 +119,7 @@ def main(config):
                 continue
 
 
-            matches, plucker1, plucker2,  = matches.to(device), plucker1.to(device), plucker2.to(device),
+            matches, plucker1, plucker2  = matches.to(device), plucker1.to(device), plucker2.to(device)
 
             # Compute output
             matching_timer.tic()
